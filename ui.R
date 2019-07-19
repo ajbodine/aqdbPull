@@ -77,7 +77,6 @@ library(htmltools)
 library(webshot)
 library(shinycustomloader)
 library(RPostgres)
-library(RCurl)
 } # options and libraries
 
 {
