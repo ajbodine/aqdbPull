@@ -19418,15 +19418,15 @@ server <- function(input, output, session){
     for(i in 1:length(fimCMGSplit)){
       cmgPat <- as.data.frame(fimCMGSplit[i])
       colnames(cmgPat) <- colnames(fimCMG)
-      cmgPat[, 3:19] <- as.data.frame(
-                          apply(cmgPat[, 3:19], 2,
-                                function(x) as.numeric(na.locf(x,
-                                                               na.rm = F,
-                                                               rev = T
-                                                       ))
-                          )
-      )
-      cmgPat <- split(head(cmgPat, 1), paste(cmgPat$FIN))
+      for(j in 3:19){
+        if(any(is.na(cmgPat[, j]))){
+          if(any(!is.na(cmgPat[, j]))){
+            cmgPat[which(is.na(cmgPat[, j])), j] <- 
+              cmgPat[head(which(!is.na(cmgPat[, j])), 1), j]
+          }
+        }
+      }
+      cmgPat <- split(head(cmgPat, 1), paste(cmgPat$FIN[1]))
       fimCMGSplit <- replace(fimCMGSplit, i, cmgPat)
     }
     ## Takes the first row of each of the 
