@@ -521,7 +521,7 @@ regTC <- function(){
                 style = 'font-size: 20px; margin-bottom: 5px;',
                 HTML('<span style="width: 100%; padding-left: 10px;">
                         <i class="fa fa-line-chart" style="float:left;"></i>
-                        AQ Scores and Typical Recovery
+                        AbilityQuotient Scores and Typical Recovery
                       </span>'
                 )
             ),
