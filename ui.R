@@ -219,7 +219,7 @@ railOpts <- function(){
                                  ),
                                  id = 'gtButton'
                           ),
-                          tags$a(title = 'AQ Scores and Typical Recovery',
+                          tags$a(title = 'AbilityQuotient Scores and Typical Recovery',
                                  style = 'border: 0; border-radius: 0;',
                                  class = 'item
                                           faa-parent animated-hover',

@@ -8007,7 +8007,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - SC Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - SC Scores',
                      range = c(minScoSC_all, maxScoSC_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -8071,7 +8071,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - SC Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - SC Scores',
                      range = c(minScoSC_all, maxScoSC_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -8260,7 +8260,7 @@ server <- function(input, output, session){
       }
     }
 
-    rv$yAx2 <- list(title = 'AQ - SC Scores',
+    rv$yAx2 <- list(title = 'AbilityQuotient - SC Scores',
                     range = c(minScoSC_all, maxScoSC_all),
                     tickfont = list(size = 24),
                     titlefont = list(size = 24)
@@ -8650,7 +8650,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Mob Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Mob Scores',
                      range = c(minScoMob_all, maxScoMob_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -8715,7 +8715,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Mob Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Mob Scores',
                      range = c(minScoMob_all, maxScoMob_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -8896,7 +8896,7 @@ server <- function(input, output, session){
       }
     }
 
-    rv$yAx2 <- list(title = 'AQ - Mob Scores',
+    rv$yAx2 <- list(title = 'AbilityQuotient - Mob Scores',
                     range = c(minScoMob_all, maxScoMob_all),
                     tickfont = list(size = 24),
                     titlefont = list(size = 24)
@@ -9353,7 +9353,7 @@ server <- function(input, output, session){
                   tickfont = list(size = 24),
                   titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Cog Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Cog Scores',
                      range = c(minScoCog_all, maxScoCog_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -9451,7 +9451,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Cog Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Cog Scores',
                      range = c(minScoCog_all, maxScoCog_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -9633,7 +9633,7 @@ server <- function(input, output, session){
       }
     }
     
-    rv$yAx2 <- list(title = 'AQ - Cog Scores',
+    rv$yAx2 <- list(title = 'AbilityQuotient - Cog Scores',
                     range = c(minScoCog_all, maxScoCog_all),
                     tickfont = list(size = 24),
                     titlefont = list(size = 24)
@@ -10224,7 +10224,7 @@ server <- function(input, output, session){
                     titlefont = list(size = 24)
       )
       ## Sets the options for the y-axis. Doesn't actually have to be reactive
-      rv$yAx <- list(title = 'AQ - SC Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - SC Scores',
                      range = c(minScoSC_all, maxScoSC_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -10293,7 +10293,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - SC Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - SC Scores',
                      range = c(minScoSC_all, maxScoSC_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -10417,7 +10417,7 @@ server <- function(input, output, session){
         )
       }
     }
-    rv$yAx2 <- list(title = 'AQ - SC Scores',
+    rv$yAx2 <- list(title = 'AbilityQuotient - SC Scores',
                     range = c(minScoSC_all, maxScoSC_all),
                     tickfont = list(size = 24),
                     titlefont = list(size = 24)
@@ -10915,7 +10915,7 @@ server <- function(input, output, session){
                   tickfont = list(size = 24),
                   titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Mob Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Mob Scores',
                      range = c(minScoMob_all, maxScoMob_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -10980,7 +10980,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Mob Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Mob Scores',
                      range = c(minScoMob_all, maxScoMob_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -11092,7 +11092,7 @@ server <- function(input, output, session){
       }
     }
 
-    rv$yAx2 <- list(title = 'AQ - Mob Scores',
+    rv$yAx2 <- list(title = 'AbilityQuotient - Mob Scores',
                     range = c(minScoMob_all, maxScoMob_all),
                     tickfont = list(size = 24),
                     titlefont = list(size = 24)
@@ -11762,7 +11762,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Cog Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Cog Scores',
                      range = c(minScoCog_all, maxScoCog_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -11869,7 +11869,7 @@ server <- function(input, output, session){
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
       )
-      rv$yAx <- list(title = 'AQ - Cog Scores',
+      rv$yAx <- list(title = 'AbilityQuotient - Cog Scores',
                      range = c(minScoCog_all, maxScoCog_all),
                      tickfont = list(size = 24),
                      titlefont = list(size = 24)
@@ -12003,7 +12003,7 @@ server <- function(input, output, session){
       }
     }
     
-    rv$yAx2 <- list(title = 'AQ - Cog Scores',
+    rv$yAx2 <- list(title = 'AbilityQuotient - Cog Scores',
                     range = c(minScoCog_all, maxScoCog_all),
                     tickfont = list(size = 24),
                     titlefont = list(size = 24)
@@ -14258,7 +14258,7 @@ server <- function(input, output, session){
           ))
         }
         ## Produces the empty plot with text
-        nullProg(axText = 'AQ - Cog Scores', message = nullMessage())
+        nullProg(axText = 'AbilityQuotient - Cog Scores', message = nullMessage())
       }else{
         linePlotCog()
       }
@@ -14340,7 +14340,7 @@ server <- function(input, output, session){
       if(!is.null(rv$scSco)){
         linePlotSC()
       }else{
-        nullProg(axText = 'AQ - SC Scores',
+        nullProg(axText = 'AbilityQuotient - SC Scores',
                  message = 'No AQ measures found for this patient'
         )
       }
@@ -14348,7 +14348,7 @@ server <- function(input, output, session){
       if(!is.null(rv$mobSco)){
         linePlotMob()
       }else{
-        nullProg(axText = 'AQ - Mob Scores',
+        nullProg(axText = 'AbilityQuotient - Mob Scores',
                  message = 'No AQ measures found for this patient'
         )
       }
@@ -14356,7 +14356,7 @@ server <- function(input, output, session){
       if(!is.null(rv$cogSco)){
         linePlotCog()
       }else{
-        nullProg(axText = 'AQ - Cog Scores',
+        nullProg(axText = 'AbilityQuotient - Cog Scores',
                  message = 'No AQ measures found for this patient'
         )
       }
