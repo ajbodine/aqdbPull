@@ -198,6 +198,7 @@ server <- function(input, output, session){
   ## way.
   marScoSwitch <- 1
 
+  
   {
   ## Per the shinyjs documentation, it's best to define all JS functions and
   ## run them early in the server file. Loading them here ensures they'll run
