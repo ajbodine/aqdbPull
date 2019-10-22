@@ -98,6 +98,8 @@ sidebar <- function(){
       img(class = 'ui center aligned image', src = 'sralabLogo.png',
           style = 'height: auto; width: 100%'
       ),
+      div(class = 'ui horizontal divider header'),
+      div(style = 'color: #f36b21', 'AbilityQuotient Dashboard'),
       div(class = 'ui horizontal divider header',
           style = 'margin-top: 0px; margin-bottom: 0.5em',
           HTML('<i class = "fa fa-area-chart fa-2x"></i>')
