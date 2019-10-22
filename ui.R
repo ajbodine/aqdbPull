@@ -87,7 +87,6 @@ library(RPostgres)
 ## convenient for styling complex UI elements, then simply dropping them in the
 ## semanticPage part of this syntax.
   
-  
 ## Styling and layout for the sidebar on the left-hand side of the dashboard.
 ## reactive and interactive content is governed by the sidebarSC, sidebarMob,
 ## and sidebarCog and a pair of event handlers pertaining to the swallowing
@@ -100,8 +99,11 @@ sidebar <- function(){
           style = 'height: auto; width: 100%'
       ),
       div(class = 'ui horizontal divider header'),
-      div(class = 'center aligned label',
-          HTML('<span style="color: #f36b21;">AbilityQuotient Dashboard</span>')
+      div(class = 'ui small inverted center aligned statistic',
+          style = 'margin: 0 auto;',
+          div(class = 'center aligned label',
+              HTML('<span style="color: #f36b21;">AbilityQuotient Dashboard</span>')
+          )
       ),
       div(class = 'ui horizontal divider header',
           style = 'margin-top: 0px; margin-bottom: 0.5em',
