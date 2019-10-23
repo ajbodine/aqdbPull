@@ -101,9 +101,7 @@ sidebar <- function(){
       div(class = 'ui horizontal divider header'),
       div(class = 'ui small inverted center aligned statistic',
           style = 'margin: 0 auto;',
-          div(class = 'center aligned label',
-              HTML('<span style="color: #f36b21;">AbilityQuotient Dashboard</span>')
-          )
+          div(HTML('<span style="color: #f36b21;">AbilityQuotient Dashboard</span>'))
       ),
       div(class = 'ui horizontal divider header',
           style = 'margin-top: 0px; margin-bottom: 0.5em',
