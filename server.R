@@ -197,7 +197,6 @@ server <- function(input, output, session){
   ## performed. If set to 0, IRT (MAP) scoring will be performed in its usual
   ## way.
   marScoSwitch <- 1
-
   
   {
   ## Per the shinyjs documentation, it's best to define all JS functions and
