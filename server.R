@@ -8564,7 +8564,7 @@ server <- function(input, output, session){
                 name = 'Goal → AQ',
                 mode = 'lines+markers',
                 line = list(color = rv$pal[1], dash = 'dash'),
-                text = ~paste('Goal → AQ: ',
+                text = ~paste('Goal → AQ Score: ',
                               round(fgLine, 2)
                 ),
                 marker = list(symbol = 'line-ns'),
@@ -9241,7 +9241,7 @@ server <- function(input, output, session){
                 name = 'Goal → AQ',
                 mode = 'lines+markers',
                 line = list(color = rv$pal[1], dash = 'dash'),
-                text = ~paste('Goal → AQ: ', 
+                text = ~paste('Goal → AQ Score: ', 
                               round(fgLine, 2)
                 ),
                 marker = list(symbol = 'line-ns'),
@@ -10017,7 +10017,7 @@ server <- function(input, output, session){
                   name = 'Goal → AQ',
                   mode = 'lines+markers',
                   line = list(color = rv$pal[1], dash = 'dash'),
-                  text = ~paste('Goal → AQ: ', 
+                  text = ~paste('Goal → AQ Score: ', 
                                 round(fgLine, 2)
                   ),
                   marker = list(symbol = 'line-ns'),
@@ -10742,7 +10742,7 @@ server <- function(input, output, session){
                 line = list(color = isolate(rv$pal)[1],
                             dash = 'dash'
                 ),
-                text = ~paste('Goal → AQ: ', 
+                text = ~paste('Goal → AQ Score: ', 
                               round(isolate(rv$fgLine), 2)
                 ),
                 marker = list(symbol = 'line-ns'),
@@ -11409,7 +11409,7 @@ server <- function(input, output, session){
                   line = list(color = rv$pal[1],
                               dash = 'dash'
                   ),
-                  text = ~paste('Goal → AQ: ', 
+                  text = ~paste('Goal → AQ Score: ', 
                                 round(fgLine, 2)
                   ),
                   marker = list(symbol = 'line-ns'),
@@ -11577,7 +11577,7 @@ server <- function(input, output, session){
                     line = list(color = rv$pal[1],
                                 dash = 'dash'
                     ),
-                    text = ~paste('Goal → AQ: ',
+                    text = ~paste('Goal → AQ Score: ',
                                   round(fgLine, 2)
                     ),
                     marker = list(symbol = 'line-ns'),
@@ -12386,7 +12386,7 @@ server <- function(input, output, session){
                   mode = 'lines+markers',
                   name = 'Goal → AQ',
                   line = list(color = rv$pal[1], dash = 'dash'),
-                  text = ~paste('Goal → AQ: ', round(fgLine, 2)),
+                  text = ~paste('Goal → AQ Score: ', round(fgLine, 2)),
                   marker = list(symbol = 'line-ns'),
                   hoverinfo = 'text'
         ) %>%
