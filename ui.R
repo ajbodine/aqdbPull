@@ -102,7 +102,7 @@ sidebar <- function(){
           style = 'padding: 0px; margin-top: 0px;',
         div(class = 'ui small inverted center aligned statistic',
             style = 'margin: 0 auto;',
-            HTML('<span style="color: #f36b21;">AbilityQuotient Dashboard</span>')
+            HTML('<span style="color: #f36b21;">Ability Quotient Dashboard</span>')
         )
       ),
       div(class = 'ui horizontal divider header',
@@ -226,7 +226,7 @@ railOpts <- function(){
                                  ),
                                  id = 'gtButton'
                           ),
-                          tags$a(title = 'AbilityQuotient Scores and Typical Recovery',
+                          tags$a(title = 'Ability Quotient Scores and Typical Recovery',
                                  style = 'border: 0; border-radius: 0;',
                                  class = 'item
                                           faa-parent animated-hover',
@@ -528,7 +528,7 @@ regTC <- function(){
                 style = 'font-size: 20px; margin-bottom: 5px;',
                 HTML('<span style="width: 100%; padding-left: 10px;">
                         <i class="fa fa-line-chart" style="float:left;"></i>
-                        AbilityQuotient Scores and Typical Recovery
+                        Ability Quotient Scores and Typical Recovery
                       </span>'
                 )
             ),
