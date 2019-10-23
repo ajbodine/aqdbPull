@@ -98,8 +98,8 @@ sidebar <- function(){
       img(class = 'ui center aligned image', src = 'sralabLogo.png',
           style = 'height: auto; width: 100%'
       ),
-      div(class = 'ui horizontal divider header'),
-      div(class = 'ui center aligned segment',
+      div(class = 'ui inverted center aligned segment',
+          style = 'padding: 0px; margin-top: 0px;',
         div(class = 'ui small inverted center aligned statistic',
             style = 'margin: 0 auto;',
             HTML('<span style="color: #f36b21;">AbilityQuotient Dashboard</span>')
