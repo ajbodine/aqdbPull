@@ -14974,9 +14974,9 @@ server <- function(input, output, session){
   # )
   ## Open connection to the EDW.
   awsCon <- DBI::dbConnect(RPostgres::Postgres(),
-                           host = host,
-                           port = port, dbname = dbname,
-                           user = user, password = pwd
+                           host = 'xdata.aseamedical.com',
+                           port = 7432, dbname = 'ricedw',
+                           user = 'abodine', password = '0MSA@R1C'
   )
   
   ## Queries for the IRT model parameters.
@@ -16011,9 +16011,9 @@ server <- function(input, output, session){
   {
   ## Re-opens connection to EDW
   awsCon <- DBI::dbConnect(RPostgres::Postgres(),
-                           host = host,
-                           port = port, dbname = dbname,
-                           user = user, password = pwd
+                           host = 'xdata.aseamedical.com',
+                           port = 7432, dbname = 'ricedw',
+                           user = 'abodine', password = '0MSA@R1C'
   )
   
   ## Pulls the LoS x CMG table from the EDW.
@@ -16362,6 +16362,7 @@ server <- function(input, output, session){
                       FROM outcomedm.current_ninehole_frmt'
     )
   }
+  nhp <- nhp[, 1:5]
   colnames(nhp) <- c('MRN', 'FIN', 'scoreLeftNHP', 'scoreRightNHP',
                      'assessmentDate'
   )
@@ -16493,6 +16494,7 @@ server <- function(input, output, session){
                               FROM outcomedm.current_pinchgrip_frmt'
     )
   }
+  pg <- pg[, 1:7]
   colnames(pg) <- c('MRN', 'FIN', 'keyPR', 'keyPL', 'gripR', 'gripL',
                     'assessmentDate'
   )
